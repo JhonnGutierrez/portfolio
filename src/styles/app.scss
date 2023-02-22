@@ -1,0 +1,42 @@
+@import 'var';
+
+html{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: $background-color;
+    font-size: 1.6rem;
+    transition: background-color .2s;
+
+    & a{
+        color: $text-color;
+    }
+    
+    // pt * pd = s || 
+
+    &.dark{
+        background-color: $dark-background-color;
+        color: $dark-text-color;
+        
+        & a{
+            color: $dark-text-color;
+        }
+    }
+    
+    @media (min-width: 896px) {
+        padding-inline: 5vw;
+    }
+    
+    @media (min-width: 1024px) {
+        padding-inline: 12vw;
+    }
+
+}
