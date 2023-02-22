@@ -37,6 +37,7 @@
             border-radius: 16px;
             text-shadow: $text-shadow;
             font-weight: 700;
+            text-align: center;
         }
 
         &__list{

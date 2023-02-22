@@ -137,7 +137,7 @@
             &__right{
                 display: flex;
                 justify-content: flex-end;
-                gap: 24px;
+                gap: 16px;
             }
         }
 
