@@ -1,6 +1,6 @@
 <script>
     import DownloadIcon from "../icons/DownloadIcon.svelte";
-    import cv from '../../assets/cv.pdf'
+    import cv from '../../assets/jhonn-gutierrez.pdf'
 </script>
 
 <div>
